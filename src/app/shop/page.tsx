@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Badge } from "@/components/ui/badge";
@@ -8,13 +9,13 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import productsData from "./chasing-bourbon-products.json";
 
 // Transform the flat product data into categorized data
-function getCategorizedProducts(products) {
+function getCategorizedProducts(products: Array<{ category: string }>) {
   const categories = new Set();
 
   // Extract unique categories
-  products.forEach(product => {
+  products.forEach((product) => {
     const productCategories = product.category.split(', ');
-    productCategories.forEach(category => categories.add(category));
+    productCategories.forEach((category: string) => categories.add(category));
   });
 
   return Array.from(categories).sort();
@@ -22,7 +23,7 @@ function getCategorizedProducts(products) {
 
 export default function Shop() {
   const { products } = productsData;
-  const categories = getCategorizedProducts(products);
+  const categories = getCategorizedProducts(products) as string[];
 
   return (
     <div className="container px-4 py-8 mx-auto">
@@ -62,7 +63,7 @@ export default function Shop() {
       <Tabs defaultValue="all" className="mb-8">
         <TabsList className="mb-6 flex flex-wrap">
           <TabsTrigger value="all">All Products</TabsTrigger>
-          {categories.map(category => (
+          {categories.map((category: string) => (
             <TabsTrigger key={category} value={category}>
               {category}
             </TabsTrigger>
@@ -77,7 +78,7 @@ export default function Shop() {
           </div>
         </TabsContent>
 
-        {categories.map(category => (
+        {categories.map((category: string) => (
           <TabsContent key={category} value={category} className="mt-0">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {products
@@ -93,7 +94,7 @@ export default function Shop() {
   );
 }
 
-function ProductCard({ product }) {
+function ProductCard({ product }: { product: { category: string, image: string, name: string, price: string, rating?: string, url: string } }) {
   const isSale = product.category.includes("Sale Item");
 
   return (
@@ -101,10 +102,11 @@ function ProductCard({ product }) {
       <CardHeader className="p-0">
         <div className="relative">
           <AspectRatio ratio={1 / 1.3} className="bg-muted/30">
-            <img
+            <Image
               src={product.image}
               alt={product.name}
-              className="object-cover w-full h-full"
+              className="object-cover"
+              fill
             />
           </AspectRatio>
 
@@ -135,10 +137,11 @@ function ProductCard({ product }) {
                 </DialogHeader>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <AspectRatio ratio={1 / 1.3} className="bg-muted/30">
-                    <img
+                    <Image
                       src={product.image}
                       alt={product.name}
-                      className="object-cover w-full h-full"
+                      className="object-cover"
+                      fill
                     />
                   </AspectRatio>
                   <div>

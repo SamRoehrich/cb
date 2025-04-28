@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -81,6 +81,7 @@ export default function Home() {
               title="got blanton's? Super Soft T-shirt"
               price="$27.99 – $32.99"
               image="https://chasing-bourbon.com/wp-content/uploads/2025/03/got-blantons-Mens-T-shirt-front-550x712.png"
+              badge=""
               href="/shop"
             />
             
@@ -88,6 +89,7 @@ export default function Home() {
               title="BOURBON Glencarin Glass"
               price="$15.99"
               image="https://chasing-bourbon.com/wp-content/uploads/2022/05/BOURBON_clear-550x712.jpg"
+              badge=""
               href="/shop"
             />
             
@@ -95,6 +97,7 @@ export default function Home() {
               title="Bourbon Life Pull-Over Hoodie"
               price="$41.99 – $45.99"
               image="https://chasing-bourbon.com/wp-content/uploads/2023/10/Bourbon-Life-Hoodie-Front-550x712.png"
+              badge=""
               href="/shop"
             />
             
@@ -126,7 +129,7 @@ export default function Home() {
             </svg>
             
             <blockquote className="text-xl md:text-2xl font-medium mb-8">
-              "I've been collecting bourbon-themed merchandise for years, and Chasing Bourbon's quality and designs are simply unmatched. The attention to detail and the premium feel of their products make them stand out from the competition."
+              &ldquo;I&apos;ve been collecting bourbon-themed merchandise for years, and Chasing Bourbon&apos;s quality and designs are simply unmatched. The attention to detail and the premium feel of their products make them stand out from the competition.&rdquo;
             </blockquote>
             
             <div className="font-medium">
@@ -142,7 +145,7 @@ export default function Home() {
         <div className="container px-4 mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to elevate your bourbon experience?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-            Join thousands of bourbon enthusiasts who've found their perfect bourbon-themed merchandise.
+            Join thousands of bourbon enthusiasts who&apos;ve found their perfect bourbon-themed merchandise.
           </p>
           
           <Link href="/shop">
@@ -156,15 +159,16 @@ export default function Home() {
   );
 }
 
-function CategoryCard({ title, image, description, href }) {
+function CategoryCard({ title, image, description, href }: { title: string; image: string; description: string; href: string }) {
   return (
     <Link href={href} className="block">
       <Card className="overflow-hidden h-full hover:shadow-md transition-shadow">
         <div className="relative pt-[100%]">
-          <img 
+          <Image 
             src={image} 
             alt={title}
             className="absolute inset-0 w-full h-full object-cover"
+            fill
           />
         </div>
         <CardContent className="p-6 text-center">
@@ -176,15 +180,16 @@ function CategoryCard({ title, image, description, href }) {
   );
 }
 
-function FeaturedProductCard({ title, price, image, badge, href }) {
+function FeaturedProductCard({ title, price, image, badge, href }: { title: string; price: string; image: string; badge?: string; href: string }) {
   return (
     <Link href={href} className="block">
       <Card className="overflow-hidden h-full hover:shadow-md transition-shadow">
         <div className="relative pt-[130%]">
-          <img 
+          <Image 
             src={image} 
             alt={title}
             className="absolute inset-0 w-full h-full object-cover"
+            fill
           />
           
           {badge && (
