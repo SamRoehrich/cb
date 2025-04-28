@@ -1,0 +1,286 @@
+{
+  "products": [
+    {
+      "name": "got blanton's? Super Soft T-shirt",
+      "price": "$27.99 – $32.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2025/03/got-blantons-Mens-T-shirt-front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/got-blantons-super-soft-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "BOURBON Varsity T-shirt",
+      "price": "$27.99 – $32.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2025/03/bourbon-varsity-mens-t-shirt-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/bourbon-varsity-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "Enjoy Bour~Bon Vintage T-Shirt",
+      "price": "$15.00 – $33.00",
+      "rating": "5.00/5",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2025/03/enjoy-Bourbon-mens-t-shirt-front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/enjoy-bourbon-vintage-t-shirt/",
+      "category": "T-Shirt, Sale Item"
+    },
+    {
+      "name": "BOURBON Barbie T-Shirt",
+      "price": "$27.99 – $32.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2025/03/Bourbon-Barbie-mens-T-shirt-front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/bourbon-barbie-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "NEAT Glencarin T-Shirt",
+      "price": "$27.99 – $33.99",
+      "rating": "5.00/5",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2024/07/Neat-Glencarin-Front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/neat-glencarin-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "Tater T-Shirt",
+      "price": "$27.99 – $33.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2025/03/Tater-mens-t-shirt-front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/tater-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "Elijah 12 T-Shirt",
+      "price": "$27.99 – $33.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2024/12/Elijah-12-mens-t-shirt-front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/elijah-12-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "Bourbon Barbie Long Sleeve T-Shirt",
+      "price": "$37.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2024/10/Barbie-hoodie-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/bourbon-barbie-long-sleeve-t-shirt/",
+      "category": "Long Sleeve T-Shirt"
+    },
+    {
+      "name": "Bourbon Crewneck Sweatshirt",
+      "price": "$36.99 – $38.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2024/09/Bourbon-Crewneck-Front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/bourbon-crewneck-sweatshirt/",
+      "category": "Sweatshirt"
+    },
+    {
+      "name": "Kentucky Made Sweatshirt",
+      "price": "$36.99 – $40.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/10/KY-Made-Crewneck-Front-2-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/kentucky-made-sweatshirt/",
+      "category": "Sweatshirt"
+    },
+    {
+      "name": "BOURBON Glencarin Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/05/BOURBON_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/bourbon-glencarin-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "SCOTCH Glencarin Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/05/SCOTCH_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/scotch-glencarin-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "BOURBON Rocks/Old Fashioned Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/05/BOURBON_rocks_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/bourbon-rocks-old-fashioned-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "SCOTCH Rocks/Old Fashioned Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/05/SCOTCH_rocks_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/scotch-rocks-old-fashioned-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "WHISKEY Rocks/Old Fashioned Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/05/WHISKEY_rocks_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/whiskey-rocks-old-fashioned-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "NEAT Glencarin Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/06/NEAT_glencarin_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/neat-glencarin-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "NEAT Rocks/Old Fashioned Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/05/NEAT_rocks_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/neat-rocks-old-fashioned-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "Kentucky Barrel Rocks/Old Fashioned Glass",
+      "price": "$16.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/07/KY_barrel_rocks_clear-2-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/kentucky-barrel-rocks-old-fashioned-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "Kentucky Made Rocks/Old Fashioned Glass",
+      "price": "$16.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/07/KY-made-glass-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/kentucky-made-rocks-old-fashioned-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "Kentucky Seal Rocks/Old Fashioned Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/05/KY_rocks_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/kentucky-seal-rocks-old-fashioned-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "Kentucky Made Large Format Ice Mold",
+      "price": "$34.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2025/01/Kentucky-Made-Ice-Mold-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/kentucky-made-large-format-ice-mold/",
+      "category": "Accessories"
+    },
+    {
+      "name": "Bourbon Life Long Sleeve T-Shirt",
+      "price": "$36.99 – $40.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/10/Bourbon-Life-LS-Front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/bourbon-life-long-sleeve-t-shirt/",
+      "category": "Long Sleeve T-Shirt"
+    },
+    {
+      "name": "Bourbon Life Relaxed T-Shirt (Ladies Sizing)",
+      "price": "$29.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/10/BL-Ladies-Relaxed-Front-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/bourbon-life-relaxed-t-shirt-ladies-sizing/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "Bourbon Life Ladies Fit T-Shirt",
+      "price": "$29.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/06/Bourbon_Life_Black_Ladies_Front-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/bourbon-life-ladies-fit-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "Unisex Bourbon Life Sweatshirt",
+      "price": "$36.99 – $38.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/10/Bourbon-Life-Crewneck-Front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/bourbon-life-sweatshirt/",
+      "category": "Sweatshirt"
+    },
+    {
+      "name": "Bourbon Life Pull-Over Hoodie",
+      "price": "$41.99 – $45.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/10/Bourbon-Life-Hoodie-Front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/bourbon-life-pull-over-hoodie/",
+      "category": "Hoodie"
+    },
+    {
+      "name": "Bourbon Life Black Hat with White Logo",
+      "price": "$24.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2024/04/BL-Black-with-white-logo-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/bourbon-life-black-hat-with-white-logo/",
+      "category": "Hat"
+    },
+    {
+      "name": "got bourbon? Super Soft T-shirt",
+      "price": "$27.99 – $32.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/12/got-bourbon-Mens-T-shirt-front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/got-bourbon-super-soft-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "got whiskey? Super Soft T-shirt",
+      "price": "$27.99 – $32.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/12/got-whiskey-Mens-T-shirt-front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/got-whiskey-super-soft-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "got scotch? Super Soft T-shirt",
+      "price": "$27.99 – $32.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/12/got-scotch-Mens-T-shirt-front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/got-scotch-super-soft-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "got rye? Super Soft T-shirt",
+      "price": "$27.99 – $32.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/12/got-rye-Mens-T-shirt-front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/got-rye-super-soft-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "got pappy? Super Soft T-shirt",
+      "price": "$27.99 – $32.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2024/08/got-pappy-Mens-T-shirt-front-550x712.png",
+      "url": "https://chasing-bourbon.com/shop/got-pappy-super-soft-t-shirt/",
+      "category": "T-Shirt"
+    },
+    {
+      "name": "BOURBON Life Rocks/Old Fashioned Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/05/BLife_rocks_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/bourbon-life-rocks-old-fashioned-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "BOURBON Life Glencarin Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/02/BL_glencarin_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/bourbon-life-glencarin-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "SCOTCH Life Glencarin Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/02/SL_glencarin_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/scotch-life-glencarin-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "SCOTCH Life Rocks/Old Fashioned Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/03/SL_rocks_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/scotch-life-rocks-old-fashioned-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "WHISKEY Life Rocks/Old Fashioned Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/05/WLife_rocks_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/whiskey-life-rocks-old-fashioned-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "Tater Glencarin Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/05/tater_glencarin_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/tater-glencarin-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "Tater Rocks/Old Fashioned Glass",
+      "price": "$15.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2022/05/tater_rocks_clear-550x712.jpg",
+      "url": "https://chasing-bourbon.com/shop/tater-rocks-old-fashioned-glass/",
+      "category": "Glassware"
+    },
+    {
+      "name": "BOURBON Life Hat",
+      "price": "$24.99",
+      "image": "https://chasing-bourbon.com/wp-content/uploads/2023/08/BL-Teal-Bourbon-Life-Hat-550x712.jpeg",
+      "url": "https://chasing-bourbon.com/shop/bourbon-life-hat/",
+      "category": "Hat"
+    }
+  ]
+}
